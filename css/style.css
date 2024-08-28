@@ -1,0 +1,132 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 120px;
+}
+.logopic {
+  border-radius: 30px;
+  height: 50px;
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgba(82, 52, 52, 0.5);
+  margin: -10px;
+  margin-top: -20px;
+  padding: 10px;
+  align-items: center;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+.buttons {
+  display: flex;
+  gap: 50px;
+  margin-left: 200px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+.bg {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  margin: -8px;
+  margin-right: -10px;
+  margin-top: -20px;
+}
+.car1 {
+  max-width: 550px;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+.header2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.header2 h1 {
+  font-size: 50px;
+  font-style: italic;
+  color: white;
+  margin-top: 150px;
+  margin-left: 40px;
+}
+.engine {
+  max-width: 200px;
+  margin-top: 80px;
+}
+article {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+article h3 {
+  width: 50%;
+  font-family: "Segoe UI";
+  font-style: normal;
+}
+.title {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 80px;
+}
+.cars,
+.parts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: baseline;
+  justify-items: baseline;
+  gap: 80px;
+}
+.cars img,
+.parts img {
+  max-width: 200px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cars h3,
+.parts h3 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+}
+.menu {
+  background-color: rgba(159, 69, 69, 0.5);
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.menu:hover {
+  transform: translateY(10px) scaleY(1.1);
+  transition: transform 0.3s ease-in-out;
+  animation-delay: 5s;
+}
+
+hr {
+  width: 100%;
+  background-color: rgb(137, 36, 36);
+}
+.ligid {
+  width: 150px;
+}
+img:hover {
+  transform: translateX(10px);
+  transition: transform 0.3s ease-in-out;
+  animation-delay: 5s;
+}
+header a:hover {
+  padding: 10px;
+  background-color: rgba(141, 40, 40, 0.25);
+  border-radius: 20px;
+}
+main a h3:hover {
+  transform: translateX(10px);
+  transition: transform 0.3s ease-in-out;
+  animation-delay: 5s;
+}
